@@ -20,3 +20,35 @@ html {
 body {
   margin-bottom: 60px;
 }
+
+.banner {
+  position: relative;
+  background-image: url("../img/outdoors2.jpg");
+  background-size: cover;
+  min-height: 50em;
+  background-position: center;
+  margin-bottom: 2em;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5); /* Adjust the alpha (last value) to control the darkness */
+}
+
+.banner-content {
+  position: absolute;
+  top: 50%;
+  right: 10%;
+  transform: translateY(-50%);
+  color: white;
+  text-align: center;
+}
+
+.button {
+  background-color: forestgreen;
+  border-color: forestgreen
+}

@@ -2,12 +2,21 @@
     ViewData["Title"] = "Home";
 }
 
-<div class="container">
-    <div class="text-center">
-        <h1>Climb To New Heights</h1>
-    </div>
+<div class="container-fluid">
     <div class="row">
-        <div class="col-lg-6">
+        <div class="col p-0">
+            <div class="banner">
+                <div class="overlay"></div>
+                <div class="banner-content">
+                    <h1 class="text-left">Climb To New Heights</h1>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="container">
+    <div class="row">
+        <div class="col-lg-6 text-end">
             <h3>Climb with Cassidy</h3>
             <p>
                 Come explore the outdoors with climbing enthusiast, Cassidy! She has always loved spending time outdoors and has been climbing for over a year now.
@@ -16,13 +25,13 @@
             </p>
         </div>
         <div class="col-lg-6">
-            <img src="@Url.Content("~/img/climbing6.jpg")" alt="First picture of Cassidy rock climbing" style="width: 20em;" />
+            <img src="@Url.Content("~/img/climbing4.jpg")" alt="First picture of Cassidy rock climbing" style="width: 20em;"/>
         </div>
 
-    </div><br />
+    </div><br/>
     <div class="row">
-        <div class="col-lg-6">
-            <img src="@Url.Content("~/img/climbing3.jpg")" alt="Fourth picture of Cassidy rock climbing" style="width: 20em;" />
+        <div class="col-lg-6 text-end">
+            <img src="@Url.Content("~/img/climbing1.jpg")" alt="Second picture of Cassidy rock climbing" style="width: 20em;"/>
         </div>
         <div class="col-lg-6">
             <h3>Bring friends along</h3>
@@ -32,9 +41,9 @@
                 to belay and climb with you. Cassidy's go to climbing partner is her husbnd, Connor.
             </p>
         </div>
-    </div> <br />
-    <div class="d-flex row justify-content-center text-center">
+    </div> <br/>
+    <div class="d-flex row justify-content-center text-center mt-5">
         <h3>Come Adventure With Us!</h3>
-        <button class="btn btn-primary" style="max-width: 8em">Book Now</button>
+        <button class="btn btn-primary button" style="max-width: 8em;">Book Now</button>
     </div>
 </div>
